@@ -15,11 +15,11 @@ const App = () => {
     }
 
     return (
-        <div className="bg-[url('./assets/images/gggrain.svg')] bg-no-repeat bg-cover h-screen w-screen  m-0 p-4">
+        <div className="bg-[url('./assets/images/svg.png')] bg-sky-300 bg-no-repeat bg-cover h-screen w-screen  m-0 p-4">
             <div className='flex justify-center h-full space-x-4 ' >
                 {showRegister ? ( <Login  toggleRegister={toggleRegister}/> ) : ( <Register toggleRegister={toggleRegister} /> ) }
             </div>
-            <AlertBox />
+            {/* <AlertBox /> */}
         </div>
     );
 };
